@@ -1,0 +1,14 @@
+- pyjokes is a module in python used for displaying jokes
+
+- pillow is a module in python used for generating images, can used for meme GENERATION.
+
+- flask, django - web dev frameworks
+
+- Python REPL (Read, Evaluate, Print, Loop)
+
+- pyttsx module is a text to speech module
+
+- os.dir(): prints all contents of your directory
+
+- Self-project idea: 
+Joke Of The Day Image Generator using pyjokes, pyttsx and pillow module.

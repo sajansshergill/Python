@@ -1,0 +1,1 @@
+Name: Sajan Role: Data scientist Skills: python, sql, machine learning Company Applied: Google Date: June 10, 2025 Experience: - Worked at XYZ on Data scientist related projects. - Developed solutions using python, sql, machine learning.

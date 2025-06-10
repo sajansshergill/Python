@@ -1,0 +1,72 @@
+- slicing
+- negative slicing (workaround - convert negative indices into postive indices)
+- string function: endWith()
+- string function: startWith()
+- string function: capitalize()
+- string function: len()
+- string function: count()
+- lower()
+- upper()
+- string.find()
+- string.replace()
+str()
+format()
+casefold()
+swapcase()
+strip()
+lstrip()
+rstrip()
+replace()
+find()
+rfind()
+index()
+rindex()
+count()
+startswith()
+endswith()
+split()
+rsplit()
+splitlines()
+join()
+partition()
+rpartition()
+encode()
+expandtabs()
+isalnum()
+isalpha()
+isascii()
+isdecimal()
+isdigit()
+isidentifier()
+islower()
+isnumeric()
+isprintable()
+isspace()
+istitle()
+isupper()
+zfill()
+center()
+ljust()
+rjust()
+maketrans()
+translate()
+
+Escape sequence characters:-
+| Escape Sequence | Description                      |
+| --------------- | -------------------------------- |
+| `\\`            | Backslash                        |
+| `\'`            | Single quote                     |
+| `\"`            | Double quote                     |
+| `\n`            | Newline (line break)             |
+| `\t`            | Horizontal tab                   |
+| `\r`            | Carriage return                  |
+| `\b`            | Backspace                        |
+| `\f`            | Form feed                        |
+| `\v`            | Vertical tab                     |
+| `\a`            | Bell (alert)                     |
+| `\0`            | Null character                   |
+| `\ooo`          | Octal value (e.g., `\141` = 'a') |
+| `\xhh`          | Hex value (e.g., `\x61` = 'a')   |
+| `\N{name}`      | Unicode character by name        |
+| `\uXXXX`        | Unicode character (16-bit hex)   |
+| `\UXXXXXXXX`    | Unicode character (32-bit hex)   |

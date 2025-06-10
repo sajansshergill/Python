@@ -1,0 +1,6 @@
+Dear Hiring Manager at <|Company|>,
+
+I am writing to express my interest in the <|Role|> position. My background in <|Skills|> makes me a great fit.
+
+Sincerely,
+<|Name|>

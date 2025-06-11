@@ -1,0 +1,15 @@
+- Lists are mutable
+- List will not take a separate space for any modification, but string creates and uses a new space 
+whenever modification is done.
+- tuples are immutable
+
+a = (1,45,342,3424,False, 45, "Rohan", "Shivam")
+print(a) 
+
+no = a.count(45)
+print(no)
+
+i = a.index(3424)
+print(i)
+
+print(len(a)) 

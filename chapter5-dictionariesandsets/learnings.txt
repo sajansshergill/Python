@@ -1,0 +1,30 @@
+- dictionaries are key-value pairs
+- dictionaries have high lookup, they can display the key-value pair in 0(1) time.
+- It is unordered
+- It is mutable
+- It is indexed
+- Cannot contain duplicate keys
+- Functions:
+items()
+keys()
+update()
+values()
+get()
+copy()
+
+- Set is a collection of non-repititive elements
+- Sets are unordered: elements order doesn't matter
+- Sets are unindexed: cannot access elements by index
+- there is no way to change items in sets
+- cannot contain duplicate values
+- Operations/functions:
+add()
+clear()
+copy()
+len()
+remove()
+pop()
+union()
+intersection()
+issubset()
+issuperset()

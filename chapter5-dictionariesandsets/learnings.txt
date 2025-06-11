@@ -28,3 +28,4 @@ union()
 intersection()
 issubset()
 issuperset()
+- There is no indexing in set. We cannot include list in set.

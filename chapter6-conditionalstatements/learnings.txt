@@ -1,0 +1,62 @@
+- If elif and Elif STATEMENTS are a multiway decision taken by our program due to certain conditions in our code.
+
+- 1. CONDITIONAL:
+a = int(input("Enter your age: "))
+
+# If else statement
+if(a>=18):
+    print("You are above the age of consent")
+    print("Good for you")
+
+else:
+    print("You are below the age of consent")
+
+
+print("End of Program")
+
+IF ELIF ELSE LADDER:
+a = int(input("Enter your age: "))
+
+- 2. # If elif else ladder
+if(a>=18):
+    print("You are above the age of consent")
+    print("Good for you")
+
+elif(a<0):
+    print("You are entering an invalid negative age")
+
+elif(a==0):
+    print("You are entering 0 which is not a valid age")    
+
+else:
+    print("You are below the age of consent")
+
+
+print("End of Program")
+
+- 3. MULTIPLE IF STATEMENTS:
+a = int(input("Enter your age: "))
+
+# If statement no: 1
+if(a%2 == 0):
+    print("a is even")
+# End of If statement no: 1
+
+# If statement no: 2
+if(a>=18):
+    print("You are above the age of consent")
+    print("Good for you")
+
+elif(a<0):
+    print("You are entering an invalid negative age")  
+
+else:
+    print("You are below the age of consent")
+# End of If statement no: 2
+
+print("End of Program")
+
+- Relational operators are used to evaluate conditions inside if statements
+- In python logical operators operate on CONDITIONAL STATEMENTS
+- there can be any number of elif statements
+- last 'else' is executed only if all the conditions inside Elifs fail

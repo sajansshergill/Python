@@ -1,0 +1,32 @@
+- Loops make it easier for a programmer to tell the computer which set of instructions to repeat and how!
+- In while loops, the condition is checked first. If it evaluates to true, the body of the loop is executed otherwise not!
+- If the loop is entered, the process of [condition check & execution] is continued until
+the condition becomes False.
+
+
+'''
+factorial(0) = 1
+factorial(1) = 1
+factorial(2) = 2 X 1
+factorial(3) = 3 X 2 X 1
+factorial(4) = 4 X 3 X 2 X 1
+factorial(5) = 5 X 4 X 3 X 2 X 1
+factorial(n) = n X n-1 X......3 X 2 X 1
+
+factorial(n) = n * factorial(n-1)
+'''
+
+def factorial(n):
+    if(n==1 or n==0):
+        return 1
+    return n * factorial(n-1)
+
+
+n = int(input("Enter a number: "))
+print(f"The factorial of this number is: {factorial(n)}")
+- A for loop is used to iterate through a sequence like list, tuple, or string[iterables]
+- range() function in python is used to generate a sequence of number
+- 'break' is used to come out of the loop when encountered. It instructs the program to exit the loop now
+- 'continue' is used to stop the current iteration of the loop and continue with the next one. It instructs the
+program to "skip this iteration".
+- 'pass' statement instructs a program to "do nothing"

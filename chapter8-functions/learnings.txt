@@ -1,0 +1,5 @@
+- A function is group of statement performing a specific task
+- When a program gets bigger in size and its complexity grows, it gets difficult for a program to keep
+track of which piece of code is doing what.
+- The programmer needs to be extremely careful while working with recursion to ensure that the function
+doesn't infinitely keep calling itself. recursion is sometimes the most direct way to code and algorithm.

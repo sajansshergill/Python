@@ -1,0 +1,80 @@
+Inheritance in Python is a fundamental concept in object-oriented programming (OOP) that allows a 
+class (called the child class or subclass) to inherit properties and behaviors (methods and attributes) 
+from another class (called the parent class or superclass).
+
+Inheritance is a way of creating a new class from an existing class.
+
+
+🔍 Why Use Inheritance?
+- Code Reusability: Avoid writing the same code multiple times.
+
+- Extensibility: Build on existing code by extending or modifying behavior.
+
+- Organization: Create a clear hierarchy between general and specific classes.
+
+🧱 Basic Syntax:
+
+class Parent:
+    def greet(self):
+        print("Hello from Parent!")
+
+class Child(Parent):
+    def say_hello(self):
+        print("Hello from Child!")
+
+# Usage
+c = Child()
+c.greet()       # Inherited from Parent
+c.say_hello()   # Defined in Child
+
+
+🔁 Types of Inheritance in Python:
+Single Inheritance: One child inherits from one parent.
+
+Multiple Inheritance: One child inherits from multiple parents.
+
+Multilevel Inheritance: A class inherits from a child class of another class.
+
+Hierarchical Inheritance: Multiple classes inherit from the same parent.
+
+Hybrid Inheritance: Combination of any of the above types.
+
+🔧 Overriding Methods:
+A child class can override a method from the parent class:
+
+class Parent:
+    def greet(self):
+        print("Hello from Parent")
+
+class Child(Parent):
+    def greet(self):  # Overrides parent method
+        print("Hello from Child")
+
+c = Child()
+c.greet()  # Output: Hello from Child
+
+🛠 Using super():
+The super() function is used to call a method from the parent class.
+
+class Parent:
+    def greet(self):
+        print("Hello from Parent")
+
+class Child(Parent):
+    def greet(self):
+        super().greet()
+        print("Hello from Child")
+
+c = Child()
+c.greet()
+# Output:
+# Hello from Parent
+# Hello from Child
+
+- A class() method is a method which is bound to the class and not the object of the class;
+@classmethod decorator is used to create a class method.
+
+methods:
+-str()
+- __len()__
+- __add()__

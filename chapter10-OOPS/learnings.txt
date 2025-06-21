@@ -1,0 +1,62 @@
+Great question!
+
+🧠 **OOPs = Object-Oriented Programming System**
+
+It’s a way of structuring your Python programs by bundling **data** and **functions** into reusable blocks 
+called **objects**.
+
+---
+
+🧱 Core Concepts of OOPs in Python
+
+| Concept        | What It Means                                                |
+| -------------- | ------------------------------------------------------------ |
+| **Class**      | A blueprint for creating objects (like a template).          |
+| **Object**     | An actual instance of a class (with real values).            |
+| **Attributes** | Variables associated with an object.                         |
+| **Methods**    | Functions that belong to a class and operate on its objects. |
+
+---
+
+ 🧰 4 Key OOP Principles (P.I.E.A.)
+
+| Principle            | Explanation                                                          | Example                                            |
+| -------------------- | -------------------------------------------------------------------- | -------------------------------------------------- |
+| **1. Polymorphism**  | Same function name can behave differently for different classes      | `+` works for both numbers and strings             |
+| **2. Inheritance**   | A class can **inherit** properties and behavior from another class   | `class Dog(Animal):`                               |
+| **3. Encapsulation** | Restrict access to data using **private/protected** variables        | `_name` or `__name`                                |
+| **4. Abstraction**   | Hiding complexity; only show necessary features (like using `len()`) | We don’t need to know how `len()` works internally |
+
+---
+
+🧪 Simple Example
+
+```python
+class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        print(f"{self.name} says woof!")
+
+# Create object
+my_dog = Dog("Bruno")
+my_dog.speak()
+```
+
+Output:
+
+```
+Bruno says woof!
+```
+
+---
+
+✅ Why Use OOPs?
+
+* **Cleaner code** (modular, reusable)
+* **Real-world modeling** (e.g., Bank, Train, Employee)
+* **Better debugging and maintenance**
+* Ideal for **larger projects** or teams
+
+---

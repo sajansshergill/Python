@@ -1,0 +1,17 @@
+- Walrus Operator:
+
+The walrus operator(:=) introduced in Python 3.8, allows you to assign values
+to variables as part of an expression. This operator, named for its resemblance
+of the eyes and tusks of the walrus, is officially called the 
+"assignment expression".
+
+-Types in Python:
+Type hints are added using the colon(:) syntax for variables.
+
+- '__name__' evaluates to the name of the module in python from where the program is ran.
+- If the module is been run directly from the command line, the '__name__' is set to the string "__main__".
+Thus, this behaviour is used to check whether the module is run directly or imported to another file.
+
+- The 'global' keyword is used to modify the variable outside of the current scope.
+- The 'enumerate' function adds counter to an iterable and returns it.
+- List comprehensions is an elegant way to create lists based on existing lists.
